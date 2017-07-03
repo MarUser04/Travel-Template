@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+html
+    head
+        meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+        meta(charset="UTF-8")
+        title Travel Template
+        link(href="css/styles.css", rel="stylesheet")
+        link(rel="stylesheet" href="css/font-awesome.css")
+        link(href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet")
+        
+    body
+
+        header.cabecera
+            .cabecera__titulo
+                h1 Travel Template  
+                span The Best Travel      
+
+            .cabecera__mensaje
+                p Your Best Choice
+
+            ul.cabecera__menu
+                    li.cabecera__menu__item
+                        a(href="#") Home 
+                    li.cabecera__menu__item
+                        a(href="#aboutSection") About Us
+                    li.cabecera__menu__item
+                        a(href="#ServicesSection") Services
+                    li.cabecera__menu__item
+                        a(href="#noticesSection") Notices
+                    li.cabecera__menu__item
+                        a(href="#promosSection") Promos
+                    li.cabecera__menu__item
+                        a(href="#contactSection") Contact                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+        .informacion
+            .informacion__titulo
+                h2 
+                  a(name="aboutSection") About Us
+                p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur numquam obcaecati architecto enim nisi maiores illo recusandae neque inventore, dolorem, ipsam laudantium magni deserunt placeat ipsa ex ullam quod dignissimos.                                                       
+
+            .informacion__us
+                .informacion__us__travel1
+                    img(src="images/travel2.jpg", alt="" id="img1")
+                    .informacion__us__travel1__info
+                        h2 Your Happy Travel
+                        p   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae libero hic, nesciunt aperiam. Corrupti cum cupiditate fugit quod vel dolorum maiores officia perspiciatis quibusdam officiis nemo amet facilis, dicta, magnam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae distinctio assumenda iusto, nulla minus dolores atque harum libero reiciendis amet tempore quisquam magni ad laboriosam nihil culpa, ab dolore doloribus!                                                                                                
+                .informacion__us__travel1
+                    .informacion__us__travel1__info 
+                
+                        h2 Your Plans, Our Work
+                        p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus molestias accusamus nobis ratione modi itaque ex autem tempore labore vitae eligendi nesciunt, aliquam, voluptas soluta, voluptatem sequi cupiditate, praesentium magnam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate cum quod dicta rem quia reiciendis quo. Sit cumque, quis enim laudantium beatae atque illum ullam, sed iste, iure nostrum, maxime.                                                                                                                        
+                    img(src="images/travel3.jpg", alt="" id="img2") 
+            
+        .servicios
+            .servicios__ourServices
+                h1
+                    a(name="ServicesSection") Our Services
+                
+                .servicios__ourServices__tipos
+                    .planes
+                        .simbolo
+                            span
+                                i.fa.fa-bed
+                        h2 Servicio de Hospedajes
+                        p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae provident, praesentium quas nulla qui tenetur voluptate numquam odio a unde mollitia cum quibusdam voluptates, minima neque molestiae asperiores magnam fugit.
+                    .planes
+                        .simbolo
+                            span
+                                i.fa.fa-plane
+                        h2 Servicio de Vuelos 
+                        p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis saepe atque aut. Molestias nobis animi quidem consequuntur autem similique, ducimus porro, architecto commodi libero provident omnis? Repellat consequatur tempora cumque!
+                    .planes
+                        .simbolo
+                            span
+                                i.fa.fa-cutlery
+                        h2 Servicio de Comidas
+                        p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum sit porro eius iste ab, omnis aperiam quisquam ipsa! Tenetur pariatur error possimus, obcaecati dolor voluptatem temporibus culpa iure. Illo, ad!
+                    .planes
+                        .simbolo
+                            span.turismo
+                                i.fa.fa-map-marker
+                        h2 Servicio de Turismo en todo el globo!
+                        p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt perspiciatis minima consequuntur eveniet, repellendus voluptates inventore quisquam blanditiis quo impedit culpa aspernatur temporibus, itaque, magnam facilis repellat dolor tempore dolores!
+                    
+        .slider
+            h2
+                a(name="noticesSection") Notices
+            section#slider
+                figure.visible
+                    img(src="images/canada.jpg", alt="alt")
+                    figcaption Visita Canada!
+                figure
+                    img(src="images/sudafrica.jpg", alt="alt")
+                    figcaption Conoce Ciudad del Cabo
+                figure
+                    img(src="images/australia.jpg", alt="alt")
+                    figcaption Sydney, Australia
+                figure
+                    img(src="images/Estonia.jpeg", alt="alt")
+                    figcaption Visita Estonia!
+                figure
+                    img(src="images/japon.jpg", alt="alt")
+                    figcaption El pais del Sol Naciente
+                figure
+                    img(src="images/suoresteAsiatico.jpg", alt="alt")
+                    figcaption El mistico Sureste Asiatico
+                figure
+                    img(src="images/polonia.jpg", alt="alt")
+                    figcaption Visita Polonia!
+        
+        .promos
+            h2
+                a(name="promosSection") Promos
+            
+            ul.promos__menu
+                li.promos__menu__item
+                    a(href="#promosSection" id="btnHotel") Hotels
+                li.promos__menu__item
+                    a(href="#promosSection" id="btnSports") Extreme Sports
+                li.promos__menu__item
+                    a(href="#promosSection" id="btnFamily") Family
+                li.promos__menu__item
+                    a(href="#promosSection" id="btnSpiritual") Spiritual
+            
+            .promos__muestra
+                .promos__muestra__promos#imgHotels.mostrar
+                    img(src="images/hotels/hotel1.jpeg", alt="")
+                    img(src="images/hotels/hotel2.jpg", alt="")
+                    img(src="images/hotels/hotel3.jpg", alt="")
+                .promos__muestra__promos#imgSports.no-mostrar
+                    img(src="images/sports/sport1.jpg", alt="")
+                    img(src="images/sports/sport2.jpg", alt="")
+                    img(src="images/sports/sport3.jpg", alt="")
+                .promos__muestra__promos#imgFamily.no-mostrar
+                    img(src="images/family/famili1.jpg", alt="")
+                    img(src="images/family/familia2.jpg", alt="")
+                    img(src="images/family/familia3.jpg", alt="")
+                .promos__muestra__promos#imgSpiritual.no-mostrar
+                    img(src="images/spiritual/espiritual1.jpg", alt="")
+                    img(src="images/spiritual/espiritual2.jpg", alt="")
+                    img(src="images/spiritual/espiritual3.jpg", alt="")
+
+        .contact
+            h2
+                a(name="contactSection") Contact
+        
+            .contact__form
+                .contact__form__mapa
+                    iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10345.486919513878!2d-135.06387389419407!3d60.719478628045565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5154449880bc5381%3A0xe43db7ea64d0354b!2sWhitehorse%2C+Territorio+del+Yuc%C3%B3n%2C+Canad%C3%A1!5e0!3m2!1ses-419!2sve!4v1497919796335" width="600" height="450" frameborder="0" style="border:0" allowfullscreen)
+                .formulario
+                    form
+                        input(type="text" id="nombre" placeholder=" Nombre")
+
+                        input(type="email" id="email" placeholder= " Email")
+
+                        input(type="text" id="mensaje" placeholder= " Mensaje")
+
+                        input(type="submit" value="Enviar" id="enviar")
+        
+        .footer
+            .footer__contacto
+                span TravelTemplate.com
+                span Tlf: 123456789-0
+                span Direccion: Calle Falsa 123
+                span Copyright © 2017 MarcoJ.
+            .footer__redes
+                span
+                    i.fa.fa-facebook
+                span
+                    i.fa.fa-twitter
+                span
+                    i.fa.fa-youtube
+                span
+                    i.fa.fa-instagram
+                span
+                    i.fa.fa-pinterest
+
+        script(src="slider.js")
+        script(src="script.js")
+    
